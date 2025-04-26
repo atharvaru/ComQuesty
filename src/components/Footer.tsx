@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
             <h3 className="text-xl font-bold">ComQuest</h3>
             <p className="text-gray-300">Turning everyday kindness into an adventure.</p>
             <div className="flex space-x-4">
-              // my tuff github
+
               <a href="https://github.com/atharvaru" className="text-gray-300 hover:text-white transition-colors">
                 <Github className="w-5 h-5" />
               </a>
@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
         
         <div className="border-t border-gray-700 mt-8 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            // 100% copy righed
+    
             &copy; {new Date().getFullYear()} ComQuest. All rights reserved.
           </p>
           <div className="flex items-center mt-4 md:mt-0 text-gray-400 text-sm">

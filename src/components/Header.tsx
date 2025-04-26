@@ -19,7 +19,7 @@ const Header: React.FC = () => {
   const isActive = (path: string) => {
     return location.pathname === path;
   };
-
+ 
   return (
     <header className="sticky top-0 z-50 bg-gradient-to-r from-green-600 to-green-500 shadow-md transition-all duration-300">
       <div className="container mx-auto px-4 py-3">

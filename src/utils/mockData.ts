@@ -155,9 +155,9 @@ export const generateMockDeeds = (zipCode: string): Deed[] => {
       points,
       category,
       estimatedTime,
-      createdBy: 'System', // Default value for createdBy
-      createdAt: new Date().toISOString(), // Current timestamp
-      approved: false // Default approval status
+      createdBy: 'System', 
+      createdAt: new Date().toISOString(),
+      approved: false 
     };
   });
 };

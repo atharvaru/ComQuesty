@@ -3,9 +3,9 @@ export interface User {
   username: string;
   points: number;
   completedDeeds: number;
-  rank: string; // Added rank field
-  createdDeeds: number; // Track deeds created
-  badges: string[]; // Array of badge IDs the user has earned
+  rank: string; 
+  createdDeeds: number; 
+  badges: string[]; 
 }
 
 export interface Deed {
@@ -17,9 +17,9 @@ export interface Deed {
   points: number;
   category: string;
   estimatedTime: string;
-  createdBy: string; // Added creator field
-  createdAt: string; // Added creation timestamp
-  approved: boolean; // Added approval status
+  createdBy: string; 
+  createdAt: string; 
+  approved: boolean; 
 }
 
 export interface CompletedDeed {
@@ -41,14 +41,14 @@ export interface Badge {
   id: string;
   name: string;
   description: string;
-  icon: string; // Name of the icon (e.g., "Award", "Leaf")
-  pointsRequired?: number; // Optional points requirement
-  deedsRequired?: number; // Optional deeds requirement
-  category?: string; // For category-specific badges
-  difficulty?: 'easy' | 'medium' | 'hard'; // For difficulty-specific badges
-  specialCondition?: string; // For special condition badges
-  tier?: 'bronze' | 'silver' | 'gold' | 'platinum'; // For tiered badges
-  color: string; // Badge color theme
+  icon: string; 
+  pointsRequired?: number; 
+  deedsRequired?: number; 
+  category?: string; 
+  difficulty?: 'easy' | 'medium' | 'hard'; 
+  specialCondition?: string; 
+  tier?: 'bronze' | 'silver' | 'gold' | 'platinum'; 
+  color: string; 
 }
 
 export interface UserBadge {
@@ -61,7 +61,7 @@ export interface UserBadge {
   };
 }
 
-// Optional: Badge categories for organization
+
 export enum BadgeCategory {
   MILESTONE = 'milestone',
   CREATION = 'creation',
